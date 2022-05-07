@@ -18,24 +18,49 @@
     <item>
      <layout class="QHBoxLayout" name="HeaderHorizolntalLayout">
       <item>
-       <widget class="QLineEdit" name="lineEditFindContact"/>
+       <widget class="QLineEdit" name="lineEditFindContact">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="dragEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="clearButtonEnabled">
+         <bool>false</bool>
+        </property>
+       </widget>
       </item>
       <item>
        <widget class="QPushButton" name="pushButtonAddContact">
         <property name="minimumSize">
          <size>
-          <width>36</width>
-          <height>36</height>
+          <width>42</width>
+          <height>42</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>36</width>
-          <height>36</height>
+          <width>42</width>
+          <height>42</height>
          </size>
         </property>
         <property name="text">
-         <string>+</string>
+         <string/>
         </property>
        </widget>
       </item>

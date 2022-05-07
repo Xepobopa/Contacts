@@ -2,7 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "roundbutton.h"
+#include <QtSvg/QtSvg>
+#include <QtSvg/QSvgRenderer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -15,9 +16,6 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
-    RoundButton* button;
-
 private:
     Ui::MainWindow *ui;
 };
