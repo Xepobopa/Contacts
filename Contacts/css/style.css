@@ -1,0 +1,45 @@
+/*QPushButton {
+    color: #333;
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #fff, stop: 1 #888
+        );
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #fff, stop: 1 #bbb
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }*/
+
+QMainWindow
+{
+    background-color : black;
+}
+
+QPushButton#pushButtonAddContact
+{
+    opacity: 0.3;
+    background: #65C466;
+/*    border: 1px solid #65C466;*/
+    border-radius: 18px;
+    border-style: outset;
+
+    /*background-color: rgb(16, 47, 21);
+    border: 1px solid rgb(16, 47, 21);
+    border-radius: 20px;
+    border-style: outset;*/
+}
