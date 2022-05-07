@@ -25,21 +25,23 @@ QPushButton:pressed {
         );
     }*/
 
-QMainWindow
+QMainWindow#MainWindow
 {
     background-color : black;
 }
 
 QPushButton#pushButtonAddContact
 {
-    opacity: 0.3;
-    background: #65C466;
-/*    border: 1px solid #65C466;*/
-    border-radius: 18px;
-    border-style: outset;
+    background: rgba(101, 196, 102, 77);
+    border-radius: 21px;
+}
 
-    /*background-color: rgb(16, 47, 21);
-    border: 1px solid rgb(16, 47, 21);
-    border-radius: 20px;
-    border-style: outset;*/
+QLineEdit#lineEditFindContact
+{
+    background: #1C1C1E;
+    border-radius: 21px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    color: #888B94;
 }
